@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    .missao {
+        margin-top: 15rem;
+        margin-left: 25px;
+        
+    }
+    .missao2 {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #000;        
+    }
+.idosos2 {
+    width: 800px;
+}
+.missao2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.missao2 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.missao2 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+h1 + h3 {
+    margin-top: 10px;
+}
+h3 + h1 {
+    margin-top: 40px;
+}
+h3 + p {
+    margin-top: 10px;
+}
+p + h1 {
+    margin-top: 10px;
+}
+h2 + h3 {
+    margin-top: 10px;
+}
+h3 + h2 {
+    margin-top: 10px;
+}
+.missao2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.freepik2 {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    margin-left: 89%;
+
+}
+.missao2 li{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+li + li {
+    margin-top: 0.8px;
+}
+.listaValores {
+    margin-left: 25px;
+}

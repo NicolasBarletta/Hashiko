@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    .equipe {
+        margin-top: 15rem;
+        margin-left: 90px;
+        
+    }
+    .equipe h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    }
+    .equipe2 {
+        display: flex;
+        flex-direction: column;
+        flex-direction: center;
+        align-items: center;
+        
+    }
+    hr {
+        color: #000;
+        height: 2px;
+        width: 90rem;
+    }

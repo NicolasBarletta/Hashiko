@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .idosos {
+        width: 1000px;
+
+    }
+    .freepik {
+        margin-left: 50rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .bemvindo {
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-direction: column;
+        align-items: center;
+        margin: 12rem 18rem;
+        font-size: 14px;
+        
+
+
+    }
+    .container2 h3 {
+        margin-top: 20px;
+    }
+    

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+.aplicativo {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.aplicativo2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.imagemPng {
+    margin-top: 110px;
+}
+.png {
+    width: 500px;
+    margin-top:
+}
+.aplicativo h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.aplicativo h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.conteudoProposta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    
+}
+.proposta {
+    border: 1px solid #065A82;
+}
+.slider {
+    margin: 20px auto;
+    margin-top: 20px;
+    width: 90px;
+    height: 270px;
+
+    overflow: hidden;
+}
+.foto { 
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacao{
+   25%{
+       opacity: 1;
+       transform:scale(1.1,1.1);
+   }
+   50% {
+       opacity: 0;
+   }
+}
+.slider .foto {
+   width: 320px;
+    height: 30rem;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+.foto:nth-child(1) {
+
+}
+.foto:nth-child(2) {
+   animation-delay: 6s;
+}
+.foto:nth-child(3) {
+   animation-delay: 12s; 
+}
+.foto:nth-child(4) {
+   animation-delay: 18s;
+}
+.foto:nth-child(5) {
+    animation-delay: 24s; 
+ }
+ .foto:nth-child(6) {
+    animation-delay: 30s;
+ }
